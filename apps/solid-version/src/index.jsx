@@ -1,6 +1,6 @@
 /* @refresh reload */
-import "styles/globals.css";
-import "styles/theme.css";
+import "@repo/styles/globals.css";
+import "@repo/styles/theme.css";
 
 import { render } from "solid-js/web";
 

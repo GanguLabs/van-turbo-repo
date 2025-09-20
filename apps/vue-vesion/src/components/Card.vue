@@ -1,5 +1,5 @@
 <script setup>
-import { button } from "styles/button.css";
+import { button } from "@repo/styles/button.css";
 import {
   container,
   image,
@@ -7,7 +7,7 @@ import {
   actions,
   title as titleStyle,
   description as descriptionStyle,
-} from "styles/card.css";
+} from "@repo/styles/card.css";
 
 defineProps({
   imageSrc: String,

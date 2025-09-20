@@ -1,5 +1,4 @@
-import "styles/globals.css";
-import "styles/globals.css";
+import "@repo/styles/globals.css";
 
 import { createApp } from "vue";
 

@@ -1,7 +1,7 @@
 import { component$, Slot } from "@builder.io/qwik";
 
-import { container as headerContainer } from "styles/header.css";
-import { button } from "styles/button.css";
+import { container as headerContainer } from "@repo/styles/header.css";
+import { button } from "@repo/styles/button.css";
 import {
   container,
   image,
@@ -9,7 +9,7 @@ import {
   actions,
   title as titleStyle,
   description as descriptionStyle,
-} from "styles/card.css";
+} from "@repo/styles/card.css";
 import { grid } from "./app.css";
 
 import qwikLogo from "./assets/qwik.svg";

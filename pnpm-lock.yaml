@@ -63,7 +63,7 @@ importers:
       '@builder.io/qwik':
         specifier: ^1.2.6
         version: 1.2.6(undici@5.23.0)
-      styles:
+      '@repo/styles':
         specifier: workspace:*
         version: link:../../packages/styles
     devDependencies:
@@ -82,12 +82,12 @@ importers:
 
   apps/solid-version:
     dependencies:
+      '@repo/styles':
+        specifier: workspace:*
+        version: link:../../packages/styles
       solid-js:
         specifier: ^1.7.8
         version: 1.7.8
-      styles:
-        specifier: workspace:*
-        version: link:../../packages/styles
     devDependencies:
       '@vanilla-extract/css':
         specifier: ^1.12.0
@@ -104,7 +104,7 @@ importers:
 
   apps/vue-vesion:
     dependencies:
-      styles:
+      '@repo/styles':
         specifier: workspace:*
         version: link:../../packages/styles
       vue:
@@ -126,6 +126,9 @@ importers:
 
   apps/web:
     dependencies:
+      '@repo/styles':
+        specifier: workspace:*
+        version: link:../../packages/styles
       '@vanilla-extract/css':
         specifier: ^1.12.0
         version: 1.12.0
@@ -138,9 +141,6 @@ importers:
       react-dom:
         specifier: ^18.2.0
         version: 18.2.0(react@18.2.0)
-      styles:
-        specifier: workspace:*
-        version: link:../../packages/styles
     devDependencies:
       '@types/node':
         specifier: ^17.0.12

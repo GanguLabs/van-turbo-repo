@@ -1,7 +1,7 @@
-import "styles/theme.css";
-import "styles/globals.css";
+import "@repo/styles/globals.css";
+import { container } from "@repo/styles/header.css";
+import "@repo/styles/theme.css";
 import Image from "next/image";
-import { container } from "styles/header.css";
 
 export default function RootLayout({
   children,

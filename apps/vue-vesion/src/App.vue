@@ -1,5 +1,5 @@
 <script setup>
-import { container as headerContainer } from "styles/header.css";
+import { container as headerContainer } from "@repo/styles/header.css";
 import { grid } from "./App.css";
 
 import Card from "./components/Card.vue";

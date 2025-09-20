@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "vue": "^3.3.4",
-    "styles": "workspace:*"
+    "@repo/styles": "workspace:*"
   },
   "devDependencies": {
     "@vanilla-extract/css": "^1.12.0",

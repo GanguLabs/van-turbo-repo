@@ -1,5 +1,5 @@
-import { container as headerContainer } from "styles/header.css";
-import { button } from "styles/button.css";
+import { container as headerContainer } from "@repo/styles/header.css";
+import { button } from "@repo/styles/button.css";
 import {
   container,
   image,
@@ -7,7 +7,7 @@ import {
   actions,
   title as titleStyle,
   description as descriptionStyle,
-} from "styles/card.css";
+} from "@repo/styles/card.css";
 import { grid } from "./App.css";
 
 import solidLogo from "./assets/solid.svg";
